@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.container {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+#user-list, #cart-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+}
+
+button.delete {
+    background-color: #dc3545;
+}

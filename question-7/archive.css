@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#archive-list {
+    list-style: none;
+    padding: 0;
+}
+
+#archive-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}

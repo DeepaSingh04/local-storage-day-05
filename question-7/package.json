@@ -1,0 +1,16 @@
+{
+    "name": "todo-app",
+    "version": "1.0.0",
+    "description": "A simple Todo Application with Archive functionality",
+    "main": "index.js",
+    "scripts": {
+      "start": "lite-server"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "lite-server": "^2.6.1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  

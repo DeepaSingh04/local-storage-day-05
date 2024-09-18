@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-container, .filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+input, select {
+    padding: 10px;
+    width: 22%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    cursor: pointer;
+}
+
+.actions button {
+    padding: 5px 10px;
+    margin-right: 5px;
+}
